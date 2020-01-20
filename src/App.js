@@ -11,7 +11,7 @@ import Term from "./components/Term";
 export default class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename="/">
         <Switch>
           <Route exact path="/">
             <NavBar/>

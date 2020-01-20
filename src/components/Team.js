@@ -45,7 +45,7 @@ export default class Team extends React.Component {
           {/* End hero unit */}
           <Grid container spacing={3}>
             {this.team.map(member => (
-              <Grid item key={member} md={3}>
+              <Grid item key={member.name} md={3}>
                 <Card style={{
                   height: '100%',
                   display: 'flex',

@@ -16,7 +16,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0"
   },
-  "homepage": "https://connieNYC.github.io/24Vita",
+  "homepage": "https://connienyc.github.io/24Vita",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
