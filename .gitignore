@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+24Vita.iml
+node_modules/
+package-lock.json
