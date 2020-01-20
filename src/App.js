@@ -5,6 +5,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
+import ScrollToTop from "./components/ScrollToTop";
 import Team from "./components/Team";
 import Term from "./components/Term";
 
@@ -15,10 +16,12 @@ export default class App extends React.Component {
   render() {
     return (
       <HashRouter basename="/">
-        <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/term" component={Terms}/>
-        </Switch>
+        <ScrollToTop>
+          <Switch>
+            <Route exact path="/" onUpdate={() => window.scrollTo(0, 0)} component={Home}/>
+            <Route path="/term" onUpdate={() => window.scrollTo(0, 0)} component={Terms}/>
+          </Switch>
+        </ScrollToTop>
       </HashRouter>);
   }
 }
