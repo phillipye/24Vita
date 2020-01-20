@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 import About from "./components/About";
 import Footer from "./components/Footer";
@@ -8,24 +8,37 @@ import NavBar from "./components/NavBar";
 import Team from "./components/Team";
 import Term from "./components/Term";
 
+
+class Home extends React.Component {
+  render() {
+    return (<div>
+      <NavBar/>
+      <Header/>
+      <About/>
+      <Team/>
+      <Footer/>
+    </div>);
+  }
+}
+
+class Terms extends React.Component {
+  render() {
+    return (<div>
+      <NavBar/>
+      <Term/>
+      <Footer/>
+    </div>);
+  }
+}
+
 export default class App extends React.Component {
   render() {
     return (
-      <Router basename="/">
+      <BrowserRouter basename="/">
         <Switch>
-          <Route exact path="/">
-            <NavBar/>
-            <Header/>
-            <About/>
-            <Team/>
-            <Footer/>
-          </Route>
-          <Route path="/term">
-            <NavBar/>
-            <Term/>
-            <Footer/>
-          </Route>
+          <Route exact path="/" component={Home}/>
+          <Route path="/term" component={Terms}/>
         </Switch>
-      </Router>);
+      </BrowserRouter>);
   }
 }
