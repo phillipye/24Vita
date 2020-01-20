@@ -4,7 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
-import Link from "@material-ui/core/Link";
+import {HashLink as Link} from 'react-router-hash-link';
 import logo from "../static/images/logo.png"
 
 const useStyles = makeStyles(theme => ({
@@ -19,6 +19,9 @@ const useStyles = makeStyles(theme => ({
   },
   link: {
     margin: theme.spacing(2, 2.5),
+    textDecoration: "none",
+    color: "inherit",
+    fontWeight: "500"
   },
 }));
 
@@ -30,19 +33,19 @@ export default function NavBar() {
       <AppBar style={{position: 'fixed'}} color="default">
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <Link href="/"><img src={logo} height={'50'} alt="logo"/></Link>
+            <Button href={"#"}><img src={logo} height={'50'} alt="logo"/></Button>
           </IconButton>
           <nav style={{flexGrow: 1}}>
-            <Link variant="button" color="inherit" href="/#about" className={classes.link}>
+            <Link variant="button" color="inherit" to="/#about" className={classes.link}>
               ABOUT US
             </Link>
-            <Link variant="button" color="inherit" href="/#team" className={classes.link}>
+            <Link variant="button" color="inherit" to="/#team" className={classes.link}>
               LEADERSHIP
             </Link>
-            <Link variant="button" color="inherit" href="/#contact" className={classes.link}>
+            <Link variant="button" color="inherit" to="/#contact" className={classes.link}>
               CONTACT
             </Link>
-            <Link variant="button" color="inherit" href="/term" className={classes.link}>
+            <Link variant="button" color="inherit" to="/term" className={classes.link}>
               TERMS & CONDITIONS
             </Link>
           </nav>
