@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/24Vita/static/css/main.f826ef54.chunk.css",
+    "main.js": "/24Vita/static/js/main.c2daca65.chunk.js",
+    "main.js.map": "/24Vita/static/js/main.c2daca65.chunk.js.map",
+    "runtime-main.js": "/24Vita/static/js/runtime-main.65a11620.js",
+    "runtime-main.js.map": "/24Vita/static/js/runtime-main.65a11620.js.map",
+    "static/js/2.fdcf8a1d.chunk.js": "/24Vita/static/js/2.fdcf8a1d.chunk.js",
+    "static/js/2.fdcf8a1d.chunk.js.map": "/24Vita/static/js/2.fdcf8a1d.chunk.js.map",
+    "index.html": "/24Vita/index.html",
+    "precache-manifest.a4a3368dfcdc3093302082b3e6a52b0c.js": "/24Vita/precache-manifest.a4a3368dfcdc3093302082b3e6a52b0c.js",
+    "service-worker.js": "/24Vita/service-worker.js",
+    "static/css/main.f826ef54.chunk.css.map": "/24Vita/static/css/main.f826ef54.chunk.css.map",
+    "static/js/2.fdcf8a1d.chunk.js.LICENSE": "/24Vita/static/js/2.fdcf8a1d.chunk.js.LICENSE",
+    "static/media/logo.png": "/24Vita/static/media/logo.bb5dd187.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65a11620.js",
+    "static/js/2.fdcf8a1d.chunk.js",
+    "static/css/main.f826ef54.chunk.css",
+    "static/js/main.c2daca65.chunk.js"
+  ]
+}
