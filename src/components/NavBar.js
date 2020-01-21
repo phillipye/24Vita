@@ -36,20 +36,20 @@ export default function NavBar() {
             <Button href={"#"}><img src={logo} height={'50'} alt="logo"/></Button>
           </IconButton>
           <nav style={{flexGrow: 1}}>
-            <Link variant="button" color="inherit" to="/#about" className={classes.link}>
+            <Link variant="button" to="/#about" className={classes.link}>
               ABOUT US
             </Link>
-            <Link variant="button" color="inherit" to="/#team" className={classes.link}>
+            <Link variant="button" to="/#team" className={classes.link}>
               LEADERSHIP
             </Link>
-            <Link variant="button" color="inherit" to="/#contact" className={classes.link}>
+            <Link variant="button" to="/contact" className={classes.link}>
               CONTACT
             </Link>
-            <Link variant="button" color="inherit" to="/term" className={classes.link}>
+            <Link variant="button" to="/term" className={classes.link}>
               TERMS & CONDITIONS
             </Link>
           </nav>
-          <Button href="#" color="secondary" variant="outlined" className={classes.link}>
+          <Button href="#" color="secondary" variant="outlined">
             GET 24VITA
           </Button>
         </Toolbar>
