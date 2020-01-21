@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d034d3db1e56dee07717343f4cd3cc5",
+    "revision": "b49ed103a0881c2444efd1b29f29dfae",
     "url": "/24Vita/index.html"
   },
   {
-    "revision": "60da15a824ef0dd952a4",
+    "revision": "41bc22e8e2c069665a7c",
     "url": "/24Vita/static/css/main.f826ef54.chunk.css"
   },
   {
-    "revision": "2ef2d879db2668ec712b",
-    "url": "/24Vita/static/js/2.acad7fc0.chunk.js"
+    "revision": "a3c59214ff82834d964f",
+    "url": "/24Vita/static/js/2.9661553f.chunk.js"
   },
   {
     "revision": "b51e62edbcf7a9c4f4ad13f506021d3e",
-    "url": "/24Vita/static/js/2.acad7fc0.chunk.js.LICENSE"
+    "url": "/24Vita/static/js/2.9661553f.chunk.js.LICENSE"
   },
   {
-    "revision": "60da15a824ef0dd952a4",
-    "url": "/24Vita/static/js/main.33a0bd40.chunk.js"
+    "revision": "41bc22e8e2c069665a7c",
+    "url": "/24Vita/static/js/main.5961e799.chunk.js"
   },
   {
     "revision": "41f8f564045d11d67206",
