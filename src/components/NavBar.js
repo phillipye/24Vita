@@ -49,7 +49,7 @@ export default function NavBar() {
               TERMS & CONDITIONS
             </Link>
           </nav>
-          <Button href="#" color="secondary" variant="outlined">
+          <Button href="/#/contact" color="secondary" variant="outlined">
             GET 24VITA
           </Button>
         </Toolbar>

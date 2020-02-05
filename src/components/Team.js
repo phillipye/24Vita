@@ -16,7 +16,7 @@ export default class Team extends React.Component {
       description: "Ryan is a first year family medicine physician. He is passionate about helping people find reliable and compassionate patient advocates who integrate well with their unique family dynamics and schedule."
     },
     {
-      name: "Phillip Ye",
+      name: "Phillip Yeun",
       description: "Phillip is fearlessly creative and habitually unconventional. As the son of immigrants, Phillip is passionate about improving the health of under-represented and immigrant patient population with compassion-driven innovation."
     },
     {

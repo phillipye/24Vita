@@ -18,7 +18,7 @@
     "react-scripts": "3.3.0",
     "prop-types": "latest"
   },
-  "homepage": "https://connienyc.github.io/24Vita",
+  "homepage": "24Vita.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
